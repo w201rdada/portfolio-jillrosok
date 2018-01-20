@@ -4,23 +4,9 @@
 
 representation, women, race, media, news
 
-## The current state of representation and how it effects understandings of news
-
-The way we represent specific identities fundamentally shapes readers interpretation of the news and world events.
-
-
+## The current state of representation and how it affects understandings of news
+The way we represent specific identities fundamentally shapes readers’ interpretation of the news and world events. In the past ten years there has been increasing discussion around how underrepresentation affects people’s perceptions of what they and others are capable of. Despite these vocal proponents of diversity in media change has been slow, in large part because the writers and producers of major companies are primarily of demographics that are well represented in the media. As a result, they do not see the social need or the business value of changing their work. By illustrating the current state of representation through data, decision makers will gain a better awareness of why underrepresentation is a problem and the changes they can make to improve media and journalism. 
 ## A deeper look into pre-Existing analyses on representation and how data science can bolster this research
-
-Many people have an intuitive sense that certain identities are overrepresented in the media, but it is much harder to to pinpoint how these identities are portrayed in terms of tone and mood.   
-
-
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
-
-
-## Sentiment analysis will provide additional transparacy for readers and journalists
-
-A more explicit characterization of how marginalized identities are represented in the media will help journalists to share a wider range of perspectives as well as provide readers with a more critical lens through which to interpret news. 
-
+Many people have an intuitive sense that certain identities are overrepresented in the media, but it is much harder to to pinpoint how these identities are portrayed in terms of tone and mood. There are three primary ways people are mentioned in stories: people who are the center of the story, people who help ground the story, such as a witness, and people who are experts. It is crucial when analyzing the frequency with which different identities are represented to separate sources into those groups, because the aggregate might mask the nuances of what’s actually happening. For instance, it may be possible that experts are rarely people of color. Additionally, it is crucial to understand the themes and sentiments correlated with specific groups. Are women featured as often as men, but mostly as wives and housemakers? Are black people represented proportionally to other races, but typically as people suspected of crimes? By understanding not only the frequency which certain groups are mentioned, but also the context, journalists will be better able to see where they can improve and track progress. 
+## Sentiment analysis will provide additional transparency for readers and journalists
+A more explicit characterization of how marginalized identities are represented in the media will help journalists to share a wider range of perspectives as well as provide readers with a more critical lens through which to interpret news. There will be pushback from both the business side and the journalism side from this kind of analysis. The business behind media is struggling and must constantly find a balance between “the right thing to do” and what will ultimately bring in revenue for the company. Journalists often believe they are already writing objective pieces and are only “reporting on what’s newsworthy”. It will be crucial to have in depth conversations with those involved with the media industry in order to create lasting change. 
