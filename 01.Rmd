@@ -15,9 +15,19 @@ Despite these vocal proponents of diversity in media change has been slow, in la
 ## A deeper look into pre-Existing analyses on representation and how data science can bolster this research
 Many people have an intuitive sense that certain identities are overrepresented in the media, but it is much harder to to pinpoint how these identities are portrayed in terms of tone and mood.  
 
+- data collection
+- implementation
+- sentiment analysis content/purpose
+- sentiment anlaysis implementation
+- end product
+- availability to newsroom
+- best practices
+
 ## Sentiment analysis will provide additional transparency for readers and journalists
 A more explicit characterization of how marginalized identities are represented in the media will help journalists to share a wider range of perspectives as well as provide readers with a more critical lens through which to interpret news. 
 
 There will be pushback from both the business side and the journalism side from this kind of analysis. The business behind media is struggling and must constantly find a balance between “the right thing to do” and what will ultimately bring in revenue for the company. 
 
-Journalists often believe they are already writing objective pieces and are only “reporting on what’s newsworthy”. It will be crucial to have in depth conversations with those involved with the media industry in order to create lasting change. 
+Journalists often believe they are already writing objective pieces and are only “reporting on what’s newsworthy”. They may be concerned that observing the coverage of marginalized groups may lead to coverage being based on fulfilling diversity quotas rather than the most important news. The goal of this tool is not to create arbitrary goals for coverage, but instead to provide journalists and editors with more detailed information on patterns of coverage rather than as a decider for whether an individual article is published. It will be crucial to have in depth conversations with those involved with the media industry in order to create lasting change. 
+
+
