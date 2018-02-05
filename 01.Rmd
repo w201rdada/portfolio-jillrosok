@@ -21,9 +21,8 @@ One of the benefits about partnering with a newsroom is that many newsrooms alre
 
 The first step of this project will be to identify mentions of people in each article and use something like word2vec to determine whether a person mentioned is a subject, witness or expert. Gender is the easiest dimension of diversity because many names are associated with a gender. The remainder of the names could be hand-tagged, scraped from social media profiles or for public figures, one could leverage their wikipedia pages to determine gender as well as other dimensions of identity. These names with associated dimensions of identity should be open sourced along with the rest of the project in order to limit manual work in the future and bring to light mistaken characterizations. Developing a method of automating this process of identifying people and their identities will likely be the most work-intensive portion of the project. 
 
-Once this identification process is completed the next step is to analyze which kinds of articles mention 
+Once this identification process is completed the next step is to analyze which kinds of articles mention various demographics of people. The aforementioned article tags might come in handy here as a starting point to identify themes or subject matter of the article. Additionally, it is important to do some sentiment analysis at a bare minimum to determine whether the mention is negative or positive. Ideally, the sentiment analysis will be more complex and get into ideas like the tone of the article is positive, but the women is being praised as "motherly" or a "caretaker" and therefore this article does not push beyond stereotypes. The sentiment analysis is vitally important, because in order for this tool to be actionable, for instance, we need to be able to understand the nuance between an article about a black woman who is prosecuting a criminal and an article about a black woman being charged with a crime.  
 
-- sentiment analysis content/purpose
 - sentiment anlaysis implementation
 - end product
 - availability to newsroom
