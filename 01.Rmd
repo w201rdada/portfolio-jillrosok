@@ -2,7 +2,7 @@
 
 #### Keywords {-}
 
-representation, women, race, media, news
+representation, women, race, media, news, sentiment analysis
 
 ## The current state of representation and how it affects understandings of news
 The way we represent specific identities fundamentally shapes readers’ interpretation of the news and world events. In the past ten years there has been increasing discussion around how underrepresentation affects people’s perceptions of what they and others are capable of. 
@@ -15,8 +15,14 @@ Despite these vocal proponents of diversity in media change has been slow, in la
 ## A deeper look into pre-Existing analyses on representation and how data science can bolster this research
 Many people have an intuitive sense that certain identities are overrepresented in the media, but it is much harder to to pinpoint how these identities are portrayed in terms of tone and mood.  
 
-- data collection
-- implementation
+In order to ensure buy-in from the newsroom, this project would be most effective as a partnership between a media company and a local university -- perhaps Columbia, which is known for it's journalism and computer science programs, and The New York Times. The partnership with a university separate from the media company is crucial because it would be impossible to maximize the potential impact of this kind of project if the first company that used the product expected exclusive access. Once the initial research and development phase ends, then this analysis and any tools that come out of it should be open source. 
+
+One of the benefits about partnering with a newsroom is that many newsrooms already do some article tagging that can be used as a starting point for this analysis. 
+
+The first step of this project will be to identify mentions of people in each article and use something like word2vec to determine whether a person mentioned is a subject, witness or expert. Gender is the easiest dimension of diversity because many names are associated with a gender. The remainder of the names could be hand-tagged, scraped from social media profiles or for public figures, one could leverage their wikipedia pages to determine gender as well as other dimensions of identity. These names with associated dimensions of identity should be open sourced along with the rest of the project in order to limit manual work in the future and bring to light mistaken characterizations. Developing a method of automating this process of identifying people and their identities will likely be the most work-intensive portion of the project. 
+
+Once this identification process is completed the next step is to analyze which kinds of articles mention 
+
 - sentiment analysis content/purpose
 - sentiment anlaysis implementation
 - end product
