@@ -13,7 +13,7 @@ biblio-style: apalike
 
 ```{r init,include=FALSE,echo=FALSE}
 library(magrittr)
-readLines('https://www.zotero.org/api/users/4667740/items/top?start=0&limit=25&format=bibtex&itemKey=P2P2FJB5&key=izM2jxajrcTZ6AKwwZC45jOv&v=1') %>%
+readLines('https://www.zotero.org/api/users/4667740/items/top?start=0&limit=25&format=bibtex&key=izM2jxajrcTZ6AKwwZC45jOv&v=1') %>%
 writeLines('references.bib')
 ```
 
