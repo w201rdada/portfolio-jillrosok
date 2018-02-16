@@ -7,10 +7,26 @@ art, poetry, computer generated art, computer vision, nlp
 ## Are computers capable of creating art?
 In order to answer this question, we must first contemplate the purpose or definition of art. [insert definition]. Any computer program originates from a human or humans who developed it. Therefore, inherently, the process itself is created by it's human creator(s) and the art that emerges is a computer-generated reflection of the artist who wrote the program [figure out who to attribute this concept to].
 
+- something like http://www.random-art.org/about/ but with sentiment analysis
+- WHY????
+  - because art is great
+  - it may make poetry more understandable/relatable to non-experts
+  - it may add depth to a poem
+- who would use this/pay for it?
+  - NYU media and tech studies?
+  - museums
+
 
 ## How computers generate art
 This project will be building off Gene Kogan's work on computer generated art as well as Allison Parrish's computer generated poetry.
 
+- naive beginnings (find the color palate of a poem and display that color as a background)
+- discuss the pros and cons of complicating approach
+- how do we validate that the generated images are accurately matching the tone of the poem?
+
 
 ## Why?????
 Ultimately, the value of an artistic endevor is the process and the output and it is not crucial that the art provide value outside of itself. The purpose of creating art is to create art. The purpose of consuming art is to consume art. That said,  
+
+- does this kind of work change the meaning of a poem? is that ok? how will poets take this?
+- who does this benefit the most?
