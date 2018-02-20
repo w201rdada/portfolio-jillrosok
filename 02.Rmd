@@ -1,14 +1,41 @@
 # Generating Visual Art to Accompany Poetry {#computer-generated-art-resembles-poetry}
 
+
 #### Keywords {-}
 
 art, poetry, computer generated art, computer vision, nlp
 
 ## Are computers capable of creating art?
-In order to answer this question, we must first contemplate the purpose or definition of art. [insert definition]. Any computer program originates from a human or humans who developed it. Therefore, inherently, the process itself is created by it's human creator(s) and the art that emerges is a computer-generated reflection of the artist who wrote the program [figure out who to attribute this concept to].
+In order to answer whether computers can create art, we must first contemplate the purpose or definition of art. There are many ways people have defined art over time, but Merriam-Webster gets it right when it explains that art is “the conscious use of skill and creative imagination especially in the production of aesthetic objects” (MWD). For some people, this might ring alarm bells. How could computer generated art be considered “conscious”? Given that any computer program originates from a human or humans who developed it, inherently the artistic process itself is created by its human creator(s). Therefore, even though a machine is implementing the program, the art that emerges is a computer-generated reflection of the artist who wrote the program whether they wish to have an influence or not. 
+
+This project seeks to create computer generated visual art to be paired with written poetry.
+
+Next comes the questions of why such a project is worthy of creating and who might use and pay for the development of such a project. 
+
+In terms of the value of such a project, it is vitally important to acknowledge from the beginning that art has intrinsic value. Unfortunately, intrinsic value does not (typically) pay the bills. 
+
+Visual art to accompany poetry has a variety of practical applications. It could assist non-expert readers in relating, understanding and articulating the feelings behind a piece of poetry. It could surface how similes and metaphors align with the poem’s true subject. It could provide a means to display poetry in a museum paired with its generated art. It could be used in classrooms for students who are not yet comfortable with interpreting poetry.
+
+This project would almost certainly need to be funded by some kind of grant. Universities like NYU and Carnegie Mellon seem like obvious choices given that both universities have produced work in the intersection of media and technology. 
+
 
 ## How computers generate art
 This project will be building off Gene Kogan's work on computer generated art as well as Allison Parrish's computer generated poetry.
 
-## Why?????
-Ultimately, the value of an artistic endevor is the process and the output and it is not crucial that the art provide value outside of itself. The purpose of creating art is to create art. The purpose of consuming art is to consume art. That said,  
+Kogan’s work centers on creating “software for creativity and self-expression” and Parrish’s work “uses computers to find unexpected things about language beyond the bounds of human semantic constraints” (genekogan.com, Mariana Fernandez).
+
+By its nature, this project will have naive beginnings; potentially first determining the color palate of a poem using the results of an xkcd color survey to determine the relation between specific colors defined using hexidecimal values and the words in a poem using word vectors (https://blog.xkcd.com/2010/05/03/color-survey-results/). These naive beginnings can then be built upon to intersect with something like “random art” which takes a word and generates a corresponding picture using a mathematical formual that is not intended to align with the meaning of the words (http://www.random-art.org/about/). 
+
+As a starting point, this project could consist of a webapp that takes a user inputted poem and outputs an image which can subsequently be rated by the user whether it matches with their interpretation of the tone of poem or not. The algorithm could subsequently integrate these ratings into its evaluation of what kind of art to generate. It will be vitally important to the success of such a project that there is a validation step by users in order to let the algorithm know when it’s gone way off the mark.
+
+From this point, there are many potential extensions...
+
+
+## What are the potential values and risks of this project?
+Ultimately, the value of an artistic endeavor is the process and the output and it is not crucial that the art provide value outside of itself. The purpose of creating art is to create art. The purpose of consuming art is to consume art. That said, I think matching poetry to visual art could enable non-experts to relate more with poetry that may have previously seemed too abstract. 
+
+When creating art that is added onto what was another artist’s original creation it is fundamental to determine whether an artist would accept such a modification as well as if such a modification would change the meaning of a poem. It is the moral and the legal obligation of the creators of this project to ensure that we are not replicating artistic work without consent. As a starting point, it might make sense to pair with several poets who are familiar with the project and want their work to be incorporated. These poets could also serve as a manual validation method for the algorithm in the early stages of development. 
+
+If done right, this project benefits both consenting poets and those who wish to read their work. 
+
+One can imagine potential extensions of this project to a long form text. Given the current implementation, I don’t think our program would output much of use because there would be so many contradicting themes (although maybe it would surprise us!). That said, computer generated art could be extremely useful for children’s books even up to short chapter books for those beginning to read where there might be illustrations on most pages. 
