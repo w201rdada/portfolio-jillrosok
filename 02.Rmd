@@ -24,9 +24,13 @@ This project will be building off Gene Kogan's work on computer generated art as
 
 Kogan’s work centers on creating “software for creativity and self-expression” and Parrish’s work “uses computers to find unexpected things about language beyond the bounds of human semantic constraints” (genekogan.com, Mariana Fernandez).
 
-By its nature, this project will have naive beginnings; potentially first determining the color palate of a poem using the results of an xkcd color survey to determine the relation between specific colors defined using hexidecimal values and the words in a poem using word vectors (https://blog.xkcd.com/2010/05/03/color-survey-results/). These naive beginnings can then be built upon to intersect with something like “random art” which takes a word and generates a corresponding picture using a mathematical formual that is not intended to align with the meaning of the words (http://www.random-art.org/about/). 
+By its nature, this project will have naive beginnings; potentially first determining the color palate of a poem using the results of an xkcd color survey to determine the relation between specific colors defined using hexidecimal values and the words in a poem using word vectors (https://blog.xkcd.com/2010/05/03/color-survey-results/). This idea is based on Allison Parrish's work researching poetry (CITE). These naive beginnings can then be built upon to intersect with something like “random art” which takes a word and generates a corresponding picture using a mathematical formual that is not intended to align with the meaning of the words (http://www.random-art.org/about/). 
+
+Perhaps we could crowd source reactions online of emotions and concepts readers associate with randomly generated art. Once we have sufficient data on which image features to produce for a wide range of concepts, we can match poem concepts with art concepts to generate an associated image. 
 
 As a starting point, this project could consist of a webapp that takes a user inputted poem and outputs an image which can subsequently be rated by the user whether it matches with their interpretation of the tone of poem or not. The algorithm could subsequently integrate these ratings into its evaluation of what kind of art to generate. It will be vitally important to the success of such a project that there is a validation step by users in order to let the algorithm know when it’s gone way off the mark.
+
+If this process doesn't work another option might be to associate human-created pieces of art that might be good pairs for poems. Again I think using the expertise of the internet might be a good strategy here. 
 
 From this point, there are many potential extensions...
 
