@@ -109,7 +109,7 @@
 </div>
 <div id="are-computers-capable-of-creating-art" class="section level2">
 <h2><span class="header-section-number">2.1</span> Are computers capable of creating art?</h2>
-<p>In order to answer whether computers can create art, we must first contemplate the purpose or definition of art. There are many ways people have defined art over time, but Merriam-Webster gets it right when it explains that art is “the conscious use of skill and creative imagination especially in the production of aesthetic objects” (MWD). For some, this might ring alarm bells. How could computer generated art be considered “conscious”?</p>
+<p>In order to answer whether computers can create art, we must first contemplate the purpose or definition of art. There are many ways people have defined art over time, but Merriam-Webster gets it right when it explains that art is “the conscious use of skill and creative imagination especially in the production of aesthetic objects” <span class="citation">(“Definition of ART” <a href="#ref-noauthor_definition_nodate">2018</a>)</span>. For some, this might ring alarm bells. How could computer generated art be considered “conscious”?</p>
 <p>Given that any computer program originates from a human or humans who developed it, the artistic process itself is created by its human creator(s). Therefore, even though a machine is implementing the program, the art that emerges is inherently a computer-generated reflection of the artist who wrote the program whether they wish to have an influence or not.</p>
 <p>This project seeks to create computer generated visual art to be paired with written poetry.</p>
 <p>Next comes the question of why such a project is worthy of creating and who might use and pay for the development of computer generated art.</p>
@@ -124,9 +124,9 @@
 <div id="how-computers-generate-art" class="section level2">
 <h2><span class="header-section-number">2.2</span> How computers generate art</h2>
 <p>This project will be building off Gene Kogan’s work on computer generated art as well as Allison Parrish’s computer generated poetry.</p>
-<p>Kogan’s work centers on creating “software for creativity and self-expression” and Parrish’s work “uses computers to find unexpected things about language beyond the bounds of human semantic constraints” (genekogan.com, Mariana Fernandez).</p>
-<p>By its nature, this project will have naive beginnings; potentially first determining the color palate of a poem using the results of an xkcd color survey to determine the relation between specific colors defined using hexidecimal values and the words in a poem using word vectors (<a href="https://blog.xkcd.com/2010/05/03/color-survey-results/" class="uri">https://blog.xkcd.com/2010/05/03/color-survey-results/</a>). This idea is based on Allison Parrish’s work researching poetry (<a href="http://opentranscripts.org/transcript/semantic-space-literal-robots/" class="uri">http://opentranscripts.org/transcript/semantic-space-literal-robots/</a>).</p>
-<p>These naive beginnings can then be built upon to intersect with something like “random art” which takes a word and generates a corresponding picture using a mathematical formual that is not intended to align with the meaning of the words (<a href="http://www.random-art.org/about/" class="uri">http://www.random-art.org/about/</a>). In order to build upon the “random art”, we will use NLP and sentiment analysis to identify key themes as well as the overall tone of the poem.</p>
+<p>Kogan’s work centers on creating “software for creativity and self-expression” and Parrish’s work “uses computers to find unexpected things about language beyond the bounds of human semantic constraints” <span class="citation">(Kogan <a href="#ref-kogan_cv_2018">2018</a>)</span> <span class="citation">(Fernandez <a href="#ref-fernandez_what_2017">2017</a>)</span>.</p>
+<p>By its nature, this project will have naive beginnings; potentially first determining the color palate of a poem using the results of an xkcd color survey to determine the relation between specific colors defined using hexidecimal values and the words in a poem using word vectors <span class="citation">(Randallpmunroe <a href="#ref-randallpmunroe_color_2010">2010</a>)</span>. This idea is based on Allison Parrish’s work researching poetry <span class="citation">(Parrish <a href="#ref-parrish_exploring_2015">2015</a>)</span>.</p>
+<p>These naive beginnings can then be built upon to intersect with something like “random art” which takes a word and generates a corresponding picture using a mathematical formual that is not intended to align with the meaning of the words <span class="citation">(Bauer <a href="#ref-bauer_random_nodate">2018</a>)</span>. In order to build upon the “random art”, we will use NLP and sentiment analysis to identify key themes as well as the overall tone of the poem.</p>
 <p>Basic sentiment analysis has historically lacked nuance and is particularly fraught when analyzing unconventional or ironic use of language. These shortcomings could pose a significant challenge to analyzing poetry since poetry is often experimental and on the vanguard of language use. As a result, it is vital that we do not use an out of the box sentiment analysis library and instead build upon current solutions until we reach our desired level of nuance.</p>
 <p>To make matters even more complicated, we must then associate these themes and emotions from poems to visual art, which is not always a simple task. Perhaps we could crowd source reactions online of emotions and concepts readers associate with randomly generated art. Once we have sufficient data on which image features to produce for a wide range of concepts, we can match poem concepts with art concepts to generate an associated image.</p>
 <p>As a starting point, this project could consist of a webapp that takes a user inputted poem and outputs an image which can subsequently be rated by the user whether it matches with their interpretation of the tone of poem or not. The algorithm could subsequently integrate these ratings into its evaluation of what kind of art to generate. It is vitally important to the success of such a project that there is a validation step by users in order to let the algorithm know when it’s gone way off the mark.</p>
@@ -139,6 +139,27 @@
 <p>If done right, this project benefits both consenting poets and those who wish to read their work.</p>
 <p>One can imagine potential extensions of this project to long form texts. Given the current implementation, I don’t think our program would output much of use because there would be so many contradicting themes (although maybe it would surprise us!). That said, computer generated art could be extremely useful for children’s books and short chapter books for those beginning to read where there might be illustrations on most pages.</p>
 
+</div>
+</div>
+<h3>Bibliography</h3>
+<div id="refs" class="references">
+<div id="ref-noauthor_definition_nodate">
+<p>“Definition of ART.” 2018. Accessed February 19. <a href="https://www.merriam-webster.com/dictionary/art" class="uri">https://www.merriam-webster.com/dictionary/art</a>.</p>
+</div>
+<div id="ref-kogan_cv_2018">
+<p>Kogan, Gene. 2018. “CV.” <a href="http://genekogan.com/cv/" class="uri">http://genekogan.com/cv/</a>.</p>
+</div>
+<div id="ref-fernandez_what_2017">
+<p>Fernandez, Mariana. 2017. “What It Means to Be an ’Experimental Computer Poet’.” <em>Motherboard</em>. <a href="https://motherboard.vice.com/en_us/article/8x8ppp/poetry-twitter-bots-best-twitter-bots-art-allison-parrish-everyword" class="uri">https://motherboard.vice.com/en_us/article/8x8ppp/poetry-twitter-bots-best-twitter-bots-art-allison-parrish-everyword</a>.</p>
+</div>
+<div id="ref-randallpmunroe_color_2010">
+<p>Randallpmunroe. 2010. “Color Survey Results.” <em>Xkcd</em>. <a href="https://blog.xkcd.com/2010/05/03/color-survey-results/" class="uri">https://blog.xkcd.com/2010/05/03/color-survey-results/</a>.</p>
+</div>
+<div id="ref-parrish_exploring_2015">
+<p>Parrish, Allison. 2015. “Exploring (Semantic) Space with (Literal) Robots.” <em>Open Transcripts</em>. <a href="http://opentranscripts.org/transcript/semantic-space-literal-robots/" class="uri">http://opentranscripts.org/transcript/semantic-space-literal-robots/</a>.</p>
+</div>
+<div id="ref-bauer_random_nodate">
+<p>Bauer, Andrej. 2018. “Random Art: About Random Art.” Accessed February 19. <a href="http://www.random-art.org/about/" class="uri">http://www.random-art.org/about/</a>.</p>
 </div>
 </div>
             </section>
