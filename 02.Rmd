@@ -6,7 +6,7 @@
 art, poetry, computer generated art, computer vision, nlp
 
 ## Are computers capable of creating art?
-In order to answer whether computers can create art, we must first contemplate the purpose or definition of art. There are many ways people have defined art over time, but Merriam-Webster gets it right when it explains that art is “the conscious use of skill and creative imagination especially in the production of aesthetic objects” (MWD). For some, this might ring alarm bells. How could computer generated art be considered “conscious”? 
+In order to answer whether computers can create art, we must first contemplate the purpose or definition of art. There are many ways people have defined art over time, but Merriam-Webster gets it right when it explains that art is “the conscious use of skill and creative imagination especially in the production of aesthetic objects” [@noauthor_definition_nodate]. For some, this might ring alarm bells. How could computer generated art be considered “conscious”? 
 
 Given that any computer program originates from a human or humans who developed it, the artistic process itself is created by its human creator(s). Therefore, even though a machine is implementing the program, the art that emerges is inherently a computer-generated reflection of the artist who wrote the program whether they wish to have an influence or not. 
 
